@@ -1,0 +1,68 @@
+.gouwu{width:998px;height:80px;margin:0 auto;padding-top:20px;position:relative;color:#666;margin-bottom:35px;}
+.gouwu .shop_logo{float:left;}
+.gouwu h5{color:#666;font-size:18px;height:57px;line-height:57px;float:left;font-weight:normal;margin-top:5px;margin-left:5px;}
+.progress{position:absolute;right:0px;top:39px;background:url(../images/progress_bar.png) no-repeat;width:490px;height:28px;}
+.che{position:absolute;right:380px;top:65px;}
+.dingdan{position:absolute;right:210px;top:65px;}
+.succ{position:absolute;right:45px;top:65px;}
+.shop_box{width:996px;height:30px;margin:0 auto;border:1px solid #ccc;background:#F9F9F9;}
+.shop_box li{float:left;width:100px;height:30px;line-height:30px;text-align:center;color:#333;font-size:14px;}
+.che_box {width:996px;margin:0 auto;min-height:80px;}
+.che_box li {border:1px solid #ccc;border-top:0;}
+/*删除框*/
+.delet{width:420px;height:112px;border:6px solid #ccc;background:#fff;color:#f60;position:fixed;
+top: 174.5px;left: 421.5px;text-align:center;font-size:14px;padding-top:38px;z-index:5;display:none;}
+.delet a{display:block;width:100px;height:30px;line-height:30px;position:absolute;text-align:center;
+ border-radius: 3px;cursor: pointer;}
+.delet a:nth-child(1){background:#f60;color:#fff;left:85px;top:90px;}
+.delet a:nth-child(2){background:#fff;color:#f60;left:205px;top:90px;border:1px solid #f60;}
+.delet i{width: 14px;height: 14px;cursor: pointer;display: block;overflow: hidden;
+background:url(../images/tubiao.png) no-repeat -107px -912px;position:absolute;right:17px;top:12px;}
+/*购物车开始*/
+.che_box p{float:left;color:#747474;height:80px;line-height:80px;}
+.che_img{float:left;margin:10px 10px 10px 20px;width:60px;height:60px;}
+.che_img img{width:60px;height:60px;}
+.gou_rt{float:right;width:450px;height:80px;}
+.addnum{float:left;width:100px;height:80px;margin-top:30px;margin-left:27px;}
+.addnum span{width:20px;height:20px;float:left;display:block;background:#EEEEEE;text-align:center;
+line-height:20px;margin-top:2px;cursor: pointer;}
+.addnum input{width:30px;height:20px;text-align:center;line-height:20px;float:left;margin:0 6px;}
+.che_pri{float:left;position:relative;width:81px;height:80px;line-height:80px;padding-left:19px;}
+.che_pri i{position:absolute;display:block;width:70px;height:20px;border:1px solid #ffb787;background-color:#fff6ee;
+color:#f60;cursor: pointer;left:9px;top:47px;line-height:20px;padding-left:10px;}
+.che_pri i em{float:right;width:9px;height:5px;display:block;background:url(../images/tubiao.png) no-repeat -20px -995px;
+margin-top:9px;margin-right:10px;}
+.che_pri b{position:absolute;display:block;width:214px;height:20px;padding:6px;border:1px solid #ffb787;color:#999;
+line-height:20px;text-align:center;font-weight: 100;background:#fff;left:9px;top:69px;display:none;}
+.che_pri b em{display:block;width:16px;height:16px;float:left;background:url(../images/tubiao.png) no-repeat -190px -940px;margin-top:2px;}
+.xiaoji{float:left;width:84px;height:80px;line-height:80px;padding-left:16px;color:#f60;}
+.caozuo{width:113px;height:80px;float:left;margin-top:15px;padding-left:10px;}
+.caozuo a{cursor: pointer;}
+.continue{width:981px;height:40px;line-height:40px;margin:0 auto;padding-left:15px;}
+.continue p a{font-size:14px;color:#333;}
+.continue p i{float:left;margin:16px 10px 0 0;display:block;background:url(../images/tubiao.png) no-repeat -15px -729px;width:10px;height:10px;} 
+.quan_wrap{width:996px;height:41px;margin:20px auto;}
+.quan_wrap .quan{width:494px;height:41px;line-height:41px;font-size:14px;color:#333;border:1px solid #ccc;
+position:relative;}
+.quan_wrap .quan i{float:left;width:15px;height:15px;margin:13px 10px 0 20px;display:block;cursor: pointer;
+background:url(../images/tubiao.png) no-repeat -89px -911px;}
+.quan_wrap .quan input{width:217px;height:18px;line-height:18px;text-align:center;}
+.quan_wrap .quan b{width: 22px;height: 22px;float:left;cursor: pointer;position:absolute;
+background: url(../images/tubiao.png) no-repeat -124px -911px; display: block; overflow: hidden;
+right:122px;top:11px;}
+.quan_sp{float:right;width:70px;height:24px;margin: 10px 30px 0 0;font-size: 14px;background-color: #f60;color: #fff;
+line-height: 24px;text-align: center;cursor: pointer;border-radius: 3px;}
+.zongjie_wrap{width:990px;height:152px;margin:0 auto;color:#666;margin-top:45px;margin-bottom:30px;}
+.zongjie_wrap .zongjie_top{height:85px;border-bottom:1px solid #ccc;}
+.zongjie_top .zong_pri{float:right;width:295px;height:85px;font-size:14px;color:#666;}
+.zong_pri .quan_num{float:left;width:80px;height:85px;}
+.zong_pri .quan_num span{color:#f60;}
+.zong_pri .quan_xiang{float:right;width:210px;}
+.quan_xiang li p{float:right;width:120px;height:24px;text-align:right;color:#f60;}
+.quan_xiang li{line-height:24px;}
+.zongjie_bm{width:990px;height:41px;padding:15px 0 8px 0;line-height:40px;}
+.zongjie_bm p{float:right;width:210px;position:relative;margin-right:182px;}
+.zongjie_bm p span{color:#f60;font-size:18px;font-weight:bold;}
+.zongjie_bm p a{width: 190px;height:34px;line-height: 34px;background-color: #f60;
+color: #fff; text-align: center;font-size: 16px; border-radius: 3px;display:block;
+position:absolute;left:198px;top:1px;}

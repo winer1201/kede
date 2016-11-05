@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	<script src="libs/jquery-1.11.3.js"></script>
+	<script src="libs/jquery.cookie.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/register.js"></script>
+	</head>
+	<body>
+		<!--header-->
+		<div id="header">
+			<div class="left clear">
+				<div class="collect">
+					<a href="javascript:;">收藏可得网</a>
+				</div>
+				<div class="hello">
+					您好，欢迎光临可得眼镜网！  <a href="login.html">登录 </a> <a href="register.html">[免费注册]</a>
+				</div>
+			</div>
+			<div class="right clear">
+				<div>
+					<span class="sp">
+						<a href="#">我的礼券</a>
+					</span>
+					<span class="sp_1 clear sp">
+						<a href="#">我的可得</a>
+						<b></b>
+						<ul class="sub_list"style="border-top:0;">
+								<li><a href="#">我的订单</a></li>
+								<li><a href="#">我的收藏</a></li>
+								<li><a href="#">积分兑换</a></li>
+								<li><a href="#">我的验光单</a></li>
+						</ul>
+					</span>
+					<span class="sp help">
+						<a href="#">帮助中心</a>
+						<b></b>
+						<ul class="sub_list">
+								<li><a href="#">常见问题</a></li>
+								<li><a href="#">退货换货</a></li>
+								<li><a href="#">快递查询</a></li>
+								<li><a href="#">眼镜学堂</a></li>
+								<li><a href="#">礼券使用</a></li>
+								<li><a href="#">投诉建议</a></li>
+								<li><a href="#">网站地图</a></li>
+						</ul>
+					</span>
+					<a href="#" class="shop">购物车  <span>0</span>件</a>
+					<span class="clear phone">
+						<a href="#">手机版</a>
+						<div class="code">
+		
+						</div>
+					</span>
+					<a href="#" class="phone_num"><b></b>客服电话：400-20-20-20（9:00-23:45）</a>
+				</div>
+			</div>
+		</div>
+		<!--注册界面-->
+		<div class="register_logo">
+			<a href="#"><img src="images/kede_logo.gif"/></a>
+			<h4>欢迎注册</h4>
+		</div>
+		<div class="register_main">
+			<div class="clear top">
+				<p class="rtp">我已经注册，<a href="login.html">立即登录></a></p>
+			</div>
+			<div class="bm">
+				<div class="user_left">
+					<form>
+						<p class="p2"><em>*</em>账号名：<input type="text"placeholder="用户名/邮箱/手机/"required name="user"class="p1"id="register_user"/><span></span></p>
+						<p class="pass_reg"><em>*</em>设置密码：<input type="password"required name="password" id="word"class="p1"/><span></span></p>
+						<p class="pass2_reg"><em>*</em>确认密码：<input type="password"required name="password"equalTo="#word"class="p1"/><span></span></p>
+						<div class="clear tuo">
+							<i class="i_1"><em>*</em>解锁验证：</i>
+							<div class="slide">
+								<div class="zi">请按住滑块，拖动到最右边</div>
+								<div id="sliderdiv"></div>
+								<i id="slider"></i>
+							</div>
+						</div>
+						<p class="ide_code clear"><em>*</em>验证码：<input type="text"/><i class="yancode"></i><span></span></p>
+						<ul>
+							<li><input type="button"value="提交注册" class="sub"/><br /></li>
+							<li><input type="checkbox"name="agree" class="agree"checked/>我已阅读并同意
+							<a href="#">《可得用户协议》</a></li>
+						</ul>
+					</form>
+				</div>
+				<div class="user_right">
+					<a href="#"><img src="images/login.jpg"/></a>
+				</div>
+			</div>
+		</div>	
+		<div id="footer">
+			<div class="copy">
+				<p><a href="#">首页</a> | <a href="#">联系我们</a> | <a href="#">眼睛知识</a> | <a href="#">眼镜百科</a> | <a href="#">网站地图</a> | <a href="#">隐私安全</a></p>
+				<p>Copyright? 2006-2016 可得眼镜 KEDE.com 版权所有 沪ICP备09062956号 全国服务热线：4006-20-20-20</p>
+			</div>
+			<div class="link">
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+			</div>
+		</div>
+	</body>
+	
+</html>

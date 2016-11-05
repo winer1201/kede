@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>shop</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shop.css"/>
+		<script src="libs/jquery-1.11.3.js"></script>
+		<script src="libs/jquery.cookie.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/shop.js"></script>
+		<script src="js/xiang.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="left clear">
+				<div class="collect">
+					<a href="javascript:;">收藏可得网</a>
+				</div>
+				<div class="hello">
+					您好，欢迎光临可得眼镜网！  <a href="login.html">登录 </a> <a href="register.html">[免费注册]</a>
+				</div>
+			</div>
+			<div class="right clear">
+				<div>
+					<span class="sp">
+						<a href="#">我的礼券</a>
+					</span>
+					<span class="sp_1 clear sp">
+						<a href="#">我的可得</a>
+						<b></b>
+						<ul class="sub_list"style="border-top:0;">
+								<li><a href="#">我的订单</a></li>
+								<li><a href="#">我的收藏</a></li>
+								<li><a href="#">积分兑换</a></li>
+								<li><a href="#">我的验光单</a></li>
+						</ul>
+					</span>
+					<span class="sp help">
+						<a href="#">帮助中心</a>
+						<b></b>
+						<ul class="sub_list">
+								<li><a href="#">常见问题</a></li>
+								<li><a href="#">退货换货</a></li>
+								<li><a href="#">快递查询</a></li>
+								<li><a href="#">眼镜学堂</a></li>
+								<li><a href="#">礼券使用</a></li>
+								<li><a href="#">投诉建议</a></li>
+								<li><a href="#">网站地图</a></li>
+						</ul>
+					</span>
+					<a href="shop.html" class="shop">购物车  <span>0</span>件</a>
+					<span>
+						<a href="#" class="phone">手机版</a>
+						<div>
+						</div>
+					</span>
+					<a href="#" class="phone_num"><b></b>客服电话：400-20-20-20（9:00-23:45）</a>
+				</div>
+			</div>
+		</div>
+		<div class="gouwu">
+			<div class="shop_logo">
+				<a href="index.html"><img src="images/kede_logo.gif"/></a>
+			</div>
+			<h5>我的购物车</h5>
+			<div class="progress"></div>
+			<div class="che">我的购物车</div>
+			<div class="dingdan">确认订单信息</div>	
+			<div class="succ">成功提交订单</div>	
+		</div>
+		<div class="shop_box">
+			<ul>
+				<li style="width:564px;">商品</li>
+				<li>数量</li>
+				<li>单价(元)</li>
+				<li>小计(元)</li>
+				<li>操作</li>
+			</ul>
+		</div>
+		<div class="che_box">
+			<ul class="delet_ul">
+<!--				<li class="clear">
+					<div class="che_img"><img src="images/shop1.jpg"/></div>
+					<p>博士伦润明清透fresh多功能护理液355ml+355ml+120ml</p>
+					<div class="gou_rt">
+						<div class="addnum">
+							<span>-</span>
+							<input type="text"value="1" class="addnum_int"/>
+							<span>+</span>
+						</div>
+						<div class="che_pri">
+							¥90.00
+							<i>促销优惠<em></em></i>
+							<b>100积分抵扣1元，最高抵扣10元<em></em></b>
+						</div>
+						<div class="xiaoji">￥90.00</div>
+						<div class="caozuo">
+							<a>加入收藏夹</a><br/>
+							<a class="delet_btn">删除</a>
+						</div>
+					</div>
+				</li>-->
+			</ul>
+			<div class="delet">
+				确定全部删除吗？删除后可在回收站找回
+				<a class="delet_btn1">删除</a>
+				<a class="bushan">不删除</a>
+				<i class="bushan"></i>
+			</div>
+		</div>
+		<div class="continue">
+			<p><i></i><a href="list.html">继续购物</a></p>
+		</div>
+		<div class="quan_wrap">
+			<div class="quan">
+				<i></i>
+				<span>使用优惠券：</span><input type="text" value="--请选择或输入礼券号--"
+								onfocus="javascript:if(this.value=='--请选择或输入礼券号--')this.value='';"/>
+				<b></b>
+				<span class="quan_sp">确定</span>
+			</div>
+		</div>
+		<div class="zongjie_wrap">
+			<div class="zongjie_top">
+				<div class="zong_pri">
+					<div class="quan_num">共<span>2</span>件商品</div>
+					<div class="quan_xiang">
+						<ul>
+							<li>商品总价 ：<p>￥195.00</p></li>
+							<li>促销优惠 ：<p style="color:#f60;">￥0.00</p></li>
+							<li>礼券优惠 ：<p style="color:#f60;">￥0.00</p></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="zongjie_bm">
+				<p>总计(不含运费)：<span class="zongji">￥138.00</span><a href="https://auth.alipay.com/login/index.htm?needTransfer=true&goto=http://memberprod.alipay.com/account/reg/index.htm">去结算  ></a></p>
+			</div>
+		</div>
+		<div class="footer_wrap"style="background:#f0f0f0";>
+			<div id="footer">
+				<div class="copy">
+					<p><a href="#">首页</a> | <a href="#">联系我们</a> | <a href="#">眼睛知识</a> | <a href="#">眼镜百科</a> | <a href="#">网站地图</a> | <a href="#">隐私安全</a></p>
+					<p>Copyright? 2006-2016 可得眼镜 KEDE.com 版权所有 沪ICP备09062956号 全国服务热线：4006-20-20-20</p>
+				</div>
+				<div class="link">
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+/*登录界面*/
+#login_bm{padding-top:50px;height:350px;}
+#login_bm .login_lt{float:left;border-right:1px solid #ccc;margin-right:82px;}
+#login_bm .login_rt{float:left;}
+#login_bm .login_rt .login_p1,#login_bm .login_rt .login_p2{width:340px;height:60px;}
+#login_bm .login_rt .login_p1 span{color:#f60;}
+#login_bm .login_rt .pt{width:291px;height:28px;padding-left:40px;color:#A9A9A9;}
+#login_bm .login_rt .login_p1 i{background:url(../images/allbgs.png) no-repeat 0px -24px;
+position: absolute;width: 24px;height: 24px;left: 8px;top: 4px;display:block;}
+#login_bm .login_rt .login_p1,#login_bm .login_rt .login_p2{position:relative;}
+#login_bm .login_rt .login_p2 i{position: absolute;width: 24px;height: 24px;left: 8px;
+top: 4px;background: url(../images/allbgs.png) no-repeat 0 0;}
+#login_bm .login_rt .login_p3{color:#666666;line-height:12px;background:#fff;}
+#login_bm .login_rt .login_p3 a{float:right;color:#829D03;}
+#login_bm .login_rt .login_p3 a:hover{color:#FF6600;}
+#login_bm .login_rt .login_sub{width: 331px;height: 32px;letter-spacing: 34px;padding-left: 35px;
+ font-size: 15px;color: #fff;border-radius: 3px;font-weight: 400;border: 0;margin-top:4px;
+ background:#f80;}
+#login_bm .login_rt h4{color:#999;margin-top:2px;font-weight:100;}
+#login_bm .login_rt .sign a{display:block;float:left;width: 32px;height: 32px;
+margin: 7px 20px 0 0;cursor: pointer;border-radius: 18px;}
+#login_bm .login_rt .sign .a1{background: #ccc url(../images/allbgs.png) no-repeat 0 -74px;}
+#login_bm .login_rt .sign .a2{background: #ccc url(../images/allbgs.png) no-repeat -40px -74px;}
+#login_bm .login_rt .sign .a3{background: #ccc url(../images/allbgs.png) no-repeat -80px -74px;}
+#login_bm .login_rt .sign .a1:hover{background:#FF6600 url(../images/allbgs.png) no-repeat 0 -74px;}
+#login_bm .login_rt .sign .a2:hover{background:#FF6600 url(../images/allbgs.png) no-repeat -40px -107px;}
+#login_bm .login_rt .sign .a3:hover{background:#FF6600 url(../images/allbgs.png) no-repeat -80px -107px;}
